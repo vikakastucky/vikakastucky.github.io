@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-05-28T04:22:11.648Z</updated>
+  <updated>2020-05-28T08:45:31.782Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,13 +17,13 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>置顶</title>
+    <title>置顶公告</title>
     <link href="http://yoursite.com/2333/03/02/%E7%BD%AE%E9%A1%B6/"/>
     <id>http://yoursite.com/2333/03/02/%E7%BD%AE%E9%A1%B6/</id>
     <published>2333-03-02T01:52:23.000Z</published>
-    <updated>2020-05-28T04:22:11.648Z</updated>
+    <updated>2020-05-28T08:45:31.782Z</updated>
     
-    <content type="html"><![CDATA[<p>HI，这里是Vikaka。<i class="far fa-grin-hearts"></i><br>这是我的文库，用来存放各种脑洞XD<br>欢迎阅读，欢迎repo，啾咪~</p><hr><p>以下是一些小tips：</p><ul><li>点击导航菜单可直达文章目录</li><li>右下角按钮可开启阅读模式、字体调整、简繁转换以及夜间模式功能（没啥用但是很酷！）</li><li>部分文章支持章节跳转</li><li>部分文章已加密，密码为大家都喜爱的某个CP名，小写</li><li>任何疑问欢迎到Q群敲我~</li></ul><hr><p>以下是一些琐碎的唠叨XD：</p><ul><li>感谢飞机太教我用wordpress插件，不然我能搬到明年OTZ</li><li>正在尝试增加评论功能……</li><li>正在给每篇文章增加置顶图……</li><li>啊……懒（躺平）</li></ul>]]></content>
+    <content type="html"><![CDATA[<p>HI，这里是Vikaka。<i class="far fa-grin-hearts"></i><br>这是我的文库，用来存放各种脑洞XD<br>欢迎阅读，欢迎repo，啾咪~</p><hr><p>以下是一些小tips：</p><ul><li>点击导航菜单可直达文章目录</li><li>右下角按钮可开启阅读模式、字体调整、简繁转换以及夜间模式功能（没啥用但是很酷！）</li><li>头像和小剪刀分隔线可调戏（？</li><li>部分文章支持章节跳转</li><li>部分文章已加密，密码为大家都喜爱的某个CP名，小写</li><li>任何疑问欢迎到Q群敲我~</li></ul><hr><p>以下是一些琐碎的唠叨XD：</p><ul><li>感谢飞机太教我用wordpress插件，不然我能搬到明年OTZ</li><li>正在尝试增加评论功能……</li><li>正在给每篇文章增加置顶图……</li><li>啊……懒（躺平）</li></ul>]]></content>
     
     <summary type="html">
     
