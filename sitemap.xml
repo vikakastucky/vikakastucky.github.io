@@ -2,23 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://yoursite.com/2020/06/03/%E5%BC%95%E5%8A%9B-8/</loc>
+    <loc>http://yoursite.com/about/index.html</loc>
     
-    <lastmod>2020-06-03T11:07:23.315Z</lastmod>
+    <lastmod>2020-06-06T03:55:36.819Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://yoursite.com/2333/03/02/%E7%BD%AE%E9%A1%B6/</loc>
     
-    <lastmod>2020-05-30T01:35:30.732Z</lastmod>
+    <lastmod>2020-06-06T03:55:27.756Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yoursite.com/about/index.html</loc>
+    <loc>http://yoursite.com/2020/03/02/straight-flush-%E5%90%8C%E8%8A%B1%E9%A1%BA/</loc>
     
-    <lastmod>2020-05-30T01:35:17.484Z</lastmod>
+    <lastmod>2020-06-06T03:26:36.268Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2020/06/03/%E5%BC%95%E5%8A%9B-8/</loc>
+    
+    <lastmod>2020-06-03T11:07:23.315Z</lastmod>
     
   </url>
   
