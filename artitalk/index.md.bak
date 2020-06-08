@@ -14,7 +14,7 @@ img: https://cdn.jsdelivr.net/gh/cungudafa/img/images/food.jpg
         var img = "https://i.loli.net/2020/05/28/ctqGiDO6hmk8EgL.jpg"; //说说旁边显示的头像
         var appID = "FzNus6IN2uFz4I2k9kCmfGFl-MdYXbMMI";
         var appKEY = "ynff0KLi0jWttk8J8RrtSaIp";
-        var per = "5"; //每页显示说说的数量
+        var per = "10"; //每页显示说说的数量
         severurl = "http://vikakastucky.com/"
         var username = "vikaka"; //Leancloud中设置的用户名
         var placeholder1="只有vikaka才能评论哦"; //在编辑说说的输入框中的占位符
@@ -23,7 +23,44 @@ img: https://cdn.jsdelivr.net/gh/cungudafa/img/images/food.jpg
       </script>
       <div id="lazy"></div>
       <div id="artitalk"></div>
-      <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/drew233/artitalk/source/v1.0.0/artitalk.js"></script>
+      <script type="text/javascript" src="https://unpkg.com/artitalk@1.2.9/artitalk.js"></script>
   </body>
 </html>
+
+<!-- 自定义样式 -->
+<style>
+ .cbp_tmtimeline>li:nth-child(odd) .cbp_tmlabel {
+   background: linear-gradient(-45deg, #3A405A, #AEC5EB, #F9DEC9, #E9AFA3) 0% 0% / 400% 400%;
+   animation: 15s ease 0s infinite normal none running gradientBG;
+   color: #3E4348;
+ }
+ .cbp_tmtimeline>li .cbp_tmlabel {
+   background: linear-gradient(-45deg, #3A405A, #AEC5EB, #F9DEC9, #E9AFA3) 0% 0% / 400% 400%;
+   animation: 15s ease 0s infinite normal none running gradientBG;
+   color: #3E4348;
+ }
+ .cbp_tmtimeline>li:nth-child(odd) .cbp_tmlabel:after {
+   border-right-color:  #AEC5EB
+ }
+ .cbp_tmtimeline>li .cbp_tmlabel:after {
+   border-right-color:  #F9DEC9
+ }
+ .button {
+   background: linear-gradient(-45deg, #3A405A, #AEC5EB, #F9DEC9, #E9AFA3) 0% 0% / 400% 400%;
+   animation: 15s ease 0s infinite normal none running gradientBG;
+   color: #3E4348;
+ }
+ @keyframes gradientBG {
+     0% {
+         background-position: 0% 50%;
+     }
+     50% {
+         background-position: 100% 50%;
+     }
+     100% {
+         background-position: 0% 50%;
+     }
+  }
+</style>
+<!-- 自定义样式.end -->
 
