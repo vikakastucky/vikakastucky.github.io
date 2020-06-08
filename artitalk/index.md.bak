@@ -6,21 +6,24 @@ comments: 'false'
 img: https://cdn.jsdelivr.net/gh/cungudafa/img/images/food.jpg
 ---
  
-<script src="https://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
-<body>
-    <script>
-    var appID="Ry6wA4c850O79GXnbil5Ph6C-gzGzoHsz";
-    var appKEY="YMfyj3a6Ju8bnFOlqycMipa9";
-    var per = "5"; //每页显示说说的数量
-    var severurl = "http://vikakastucky.com/"
-    var username = "vikaka"; //Leancloud中设置的用户名
-    var placeholder1="只有vikaka才能评论哦"; //在编辑说说的输入框中的占位符
-    var placeholder2="没有密码，不能评论！";  //在编辑密码的输入框中的占位符
-    var lazy = 0; //是否开启懒加载动画  
-    var img = "https://i.loli.net/2020/05/28/ctqGiDO6hmk8EgL.jpg"; //说说旁边显示的头像
-    </script>
-    <div id="lazy"></div>
-    <div id="artitalk"></div>
-    <script type="text/javascript" src="https://unpkg.com/artitalk"></script>
-</body>
- 
+<head>
+  <script src="https://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+</head>
+  <body>
+      <script>
+        var img = "https://i.loli.net/2020/05/28/ctqGiDO6hmk8EgL.jpg"; //说说旁边显示的头像
+        var appID = "FzNus6IN2uFz4I2k9kCmfGFl-MdYXbMMI";
+        var appKEY = "ynff0KLi0jWttk8J8RrtSaIp";
+        var per = "5"; //每页显示说说的数量
+        severurl = "http://vikakastucky.com/"
+        var username = "vikaka"; //Leancloud中设置的用户名
+        var placeholder1="只有vikaka才能评论哦"; //在编辑说说的输入框中的占位符
+        var placeholder2="没有密码，不能评论！";  //在编辑密码的输入框中的占位符
+        var lazy = 0; //是否开启懒加载动画        
+      </script>
+      <div id="lazy"></div>
+      <div id="artitalk"></div>
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/drew233/artitalk/source/v1.0.0/artitalk.js"></script>
+  </body>
+</html>
+
