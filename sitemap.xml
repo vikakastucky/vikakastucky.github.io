@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2333/03/02/%E7%BD%AE%E9%A1%B6/</loc>
+    
+    <lastmod>2020-06-08T03:06:46.224Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/artitalk/index.html</loc>
     
     <lastmod>2020-06-08T02:54:54.983Z</lastmod>
@@ -47,13 +54,6 @@
     <loc>http://yoursite.com/about/index.html</loc>
     
     <lastmod>2020-06-06T03:55:36.819Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2333/03/02/%E7%BD%AE%E9%A1%B6/</loc>
-    
-    <lastmod>2020-06-06T03:55:27.756Z</lastmod>
     
   </url>
   
