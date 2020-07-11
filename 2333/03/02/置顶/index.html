@@ -97,7 +97,7 @@ function activateLightMode(){
 <li>任何疑问欢迎到Q群敲我~</li>
 <li>建站不易，欢迎打赏，感谢TAT</li>
 </ul>
-</div><div class="tag_share"><div class="post-meta__tag-list"></div><div class="post_share"><div class="social-share" data-image="https://i.loli.net/2020/05/28/ctqGiDO6hmk8EgL.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css"/><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js"></script></div></div><div class="post-reward"><a class="reward-button button--primary button--animated"> <i class="fa fa-qrcode"></i> 打赏<div class="reward-main"><ul class="reward-all"><li class="reward-item"><img class="post-qr-code__img" src="https://i.loli.net/2020/05/27/ZceVWFDaq26jPl8.png" alt="微信"/><div class="post-qr-code__desc">微信</div></li><li class="reward-item"><img class="post-qr-code__img" src="https://i.loli.net/2020/05/27/KSur9fVPcTqmnXO.png" alt="支付宝"/><div class="post-qr-code__desc">支付宝</div></li></ul></div></a></div><nav class="pagination_post" id="pagination"><div class="next-post pull-full"><a href="/2020/07/09/%E5%BC%95%E5%8A%9B/"><img class="next_cover" src="https://i.loli.net/2020/05/28/NWGfRdBig1tFzSq.jpg" onerror="onerror=null;src='/img/404.jpg'"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">引力（连载至第11章）</div></div></a></div></nav><hr><div id="post-comment"><div class="comment_headling"><i class="fa fa-comments fa-fw" aria-hidden="true"></i><span> 评论</span></div><div class="vcomment" id="vcomment"></div><script src="https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js"></script><script>var requestSetting = function (from,set) {
+</div><div class="tag_share"><div class="post-meta__tag-list"></div><div class="post_share"><div class="social-share" data-image="https://i.loli.net/2020/05/28/NWGfRdBig1tFzSq.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css"/><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js"></script></div></div><div class="post-reward"><a class="reward-button button--primary button--animated"> <i class="fa fa-qrcode"></i> 打赏<div class="reward-main"><ul class="reward-all"><li class="reward-item"><img class="post-qr-code__img" src="https://i.loli.net/2020/05/27/ZceVWFDaq26jPl8.png" alt="微信"/><div class="post-qr-code__desc">微信</div></li><li class="reward-item"><img class="post-qr-code__img" src="https://i.loli.net/2020/05/27/KSur9fVPcTqmnXO.png" alt="支付宝"/><div class="post-qr-code__desc">支付宝</div></li></ul></div></a></div><nav class="pagination_post" id="pagination"><div class="next-post pull-full"><a href="/2020/07/09/%E5%BC%95%E5%8A%9B/"><img class="next_cover" src="https://i.loli.net/2020/05/28/NWGfRdBig1tFzSq.jpg" onerror="onerror=null;src='/img/404.jpg'"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">引力（连载至第11章）</div></div></a></div></nav><hr><div id="post-comment"><div class="comment_headling"><i class="fa fa-comments fa-fw" aria-hidden="true"></i><span> 评论</span></div><div class="vcomment" id="vcomment"></div><script src="https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js"></script><script>var requestSetting = function (from,set) {
   var from = from
   var setting = set.split(',').filter(function(item){
   return from.indexOf(item) > -1
@@ -106,7 +106,7 @@ function activateLightMode(){
   return setting
 }
 
-var guestInfo = requestSetting(['nick','mail','link'],'nick,mail,link')
+var guestInfo = requestSetting(['nick','mail','link'],'nick,mail')
 var requiredFields = requestSetting(['nick','mail','link'],'nick,mail')
 
 window.valine = new Valine({
@@ -115,7 +115,7 @@ window.valine = new Valine({
   appKey: '2OhoVIh8UrtYVBlrhyIFbpFP',
   notify: false,
   verify: false,
-  placeholder: '在这里给我留言吧~',
+  placeholder: '在这里给我留言吧~（填入有效邮箱，评论被回复时会收到邮件提醒哟）',
   avatar: 'monsterid',
   meta: guestInfo,
   pageSize: '10',

@@ -93,7 +93,7 @@ function activateLightMode(){
   return setting
 }
 
-var guestInfo = requestSetting(['nick','mail','link'],'nick,mail,link')
+var guestInfo = requestSetting(['nick','mail','link'],'nick,mail')
 var requiredFields = requestSetting(['nick','mail','link'],'nick,mail')
 
 window.valine = new Valine({
@@ -102,7 +102,7 @@ window.valine = new Valine({
   appKey: '2OhoVIh8UrtYVBlrhyIFbpFP',
   notify: false,
   verify: false,
-  placeholder: '在这里给我留言吧~',
+  placeholder: '在这里给我留言吧~（填入有效邮箱，评论被回复时会收到邮件提醒哟）',
   avatar: 'monsterid',
   meta: guestInfo,
   pageSize: '10',
