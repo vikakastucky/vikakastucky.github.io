@@ -1,142 +1,62 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>关于 | 红星★冬季轨道</title><meta name="description" content="HI，这里是Vikaka。这是我的文库，用来存放各种脑洞XD欢迎阅读，欢迎repo，啾咪~  以下是一些小tips：  点击导航菜单可直达文章目录 右下角按钮可开启阅读模式、字体调整、简繁转换以及夜间模式功能（没啥用但是很酷） 头像和小剪刀分隔线可调戏（？ 部分文章支持章节跳转 部分文章已加密，密码为大家都喜爱的某个CP名，小写 访问时浏览器提示“不安全”是因为我没有买SSL证书（贵，还穷），所以"><meta name="author" content="Vikaka"><meta name="copyright" content="Vikaka"><meta name="format-detection" content="telephone=no"><link rel="shortcut icon" href="/img/favicon.png"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="dns-prefetch" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="crossorigin"/><link rel="dns-prefetch" href="https://fonts.googleapis.com"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="dns-prefetch" href="//busuanzi.ibruce.info"/><meta name="twitter:card" content="summary"><meta name="twitter:title" content="关于"><meta name="twitter:description" content="HI，这里是Vikaka。这是我的文库，用来存放各种脑洞XD欢迎阅读，欢迎repo，啾咪~  以下是一些小tips：  点击导航菜单可直达文章目录 右下角按钮可开启阅读模式、字体调整、简繁转换以及夜间模式功能（没啥用但是很酷） 头像和小剪刀分隔线可调戏（？ 部分文章支持章节跳转 部分文章已加密，密码为大家都喜爱的某个CP名，小写 访问时浏览器提示“不安全”是因为我没有买SSL证书（贵，还穷），所以"><meta name="twitter:image" content="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg"><meta property="og:type" content="website"><meta property="og:title" content="关于"><meta property="og:url" content="http://vikakastucky.com/about/"><meta property="og:site_name" content="红星★冬季轨道"><meta property="og:description" content="HI，这里是Vikaka。这是我的文库，用来存放各种脑洞XD欢迎阅读，欢迎repo，啾咪~  以下是一些小tips：  点击导航菜单可直达文章目录 右下角按钮可开启阅读模式、字体调整、简繁转换以及夜间模式功能（没啥用但是很酷） 头像和小剪刀分隔线可调戏（？ 部分文章支持章节跳转 部分文章已加密，密码为大家都喜爱的某个CP名，小写 访问时浏览器提示“不安全”是因为我没有买SSL证书（贵，还穷），所以"><meta property="og:image" content="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg"><meta property="article:published_time" content="2020-05-28T09:15:58.000Z"><meta property="article:modified_time" content="2020-06-06T03:55:36.819Z"><script src="https://cdn.jsdelivr.net/npm/js-cookie/dist/js.cookie.min.js"></script><script>var autoChangeMode = '1'
-var t = Cookies.get("theme")
-if (autoChangeMode == '1'){
-  var isDarkMode = window.matchMedia("(prefers-color-scheme: dark)").matches
-  var isLightMode = window.matchMedia("(prefers-color-scheme: light)").matches
-  var isNotSpecified = window.matchMedia("(prefers-color-scheme: no-preference)").matches
-  var hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
-
-  if (t === undefined){
-    if (isLightMode) activateLightMode()
-    else if (isDarkMode) activateDarkMode()
-    else if (isNotSpecified || hasNoSupport){
-      console.log('You specified no preference for a color scheme or your browser does not support it. I Schedule dark mode during night time.')
-      var now = new Date()
-      var hour = now.getHours()
-      var isNight = hour < 6 || hour >= 18
-      isNight ? activateDarkMode() : activateLightMode()
-  }
-  } else if (t == 'light') activateLightMode()
-  else activateDarkMode()
-
-} else if (autoChangeMode == '2'){
-  now = new Date();
-  hour = now.getHours();
-  isNight = hour < 6 || hour >= 18
-  if(t === undefined) isNight? activateDarkMode() : activateLightMode()
-  else if (t === 'light') activateLightMode()
-  else activateDarkMode() 
-} else {
-  if ( t == 'dark' ) activateDarkMode()
-  else if ( t == 'light') activateLightMode()
-}
-
-function activateDarkMode(){
-  document.documentElement.setAttribute('data-theme', 'dark')
-  if (document.querySelector('meta[name="theme-color"]') !== null){
-    document.querySelector('meta[name="theme-color"]').setAttribute('content','#000')
-  }
-}
-function activateLightMode(){
-  document.documentElement.setAttribute('data-theme', 'light')
-  if (document.querySelector('meta[name="theme-color"]') !== null){
-  document.querySelector('meta[name="theme-color"]').setAttribute('content','#fff')
-  }
-}</script><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@latest/css/font-awesome.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css"><link rel="canonical" href="http://vikakastucky.com/about/"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web"><script>var GLOBAL_CONFIG = { 
-  root: '/',
-  algolia: undefined,
-  localSearch: {"path":"search.xml","languages":{"hits_empty":"找不到您查询的内容:${query}"}},
-  translate: {"defaultEncoding":2,"translateDelay":0,"cookieDomain":"https://xxx/","msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
-  copy: {
-    success: '复制成功',
-    error: '复制错误',
-    noSupport: '浏览器不支持'
-  },
-  bookmark: {
-    message_prev: '按',
-    message_next: '键将本页加入书签'
-  },
-  runtime_unit: '天',
-  runtime: true,
-  copyright: undefined,
-  ClickShowText: undefined,
-  medium_zoom: false,
-  fancybox: true,
-  Snackbar: undefined,
-  baiduPush: false,
-  highlightCopy: true,
-  highlightLang: true,
-  highlightShrink: 'false',
-  isFontAwesomeV5: false,
-  isPhotoFigcaption: false,
-  islazyload: false,
-  isanchor: false
-  
-}</script><script>var GLOBAL_CONFIG_SITE = { 
-  isPost: false,
-  isHome: false,
-  isSidebar: false  
-  }</script><noscript><style>
-#page-header {
-  opacity: 1
-}
-.justified-gallery img{
-  opacity: 1
-}
-</style></noscript><link rel="stylesheet" href="css/background.css"><meta name="generator" content="Hexo 4.2.1"><link rel="alternate" href="/atom.xml" title="红星★冬季轨道" type="application/atom+xml">
-</head><body><div id="mobile-sidebar"><div id="menu_mask"></div><div id="mobile-sidebar-menus"><div class="mobile_author_icon"><img class="avatar-img" src="https://i.loli.net/2020/05/28/ctqGiDO6hmk8EgL.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="mobile_post_data"><div class="mobile_data_item is-center"><div class="mobile_data_link"><a href="/archives/"><div class="headline">文章</div><div class="length_num">37</div></a></div></div><div class="mobile_data_item is-center">      <div class="mobile_data_link"><a href="/tags/"><div class="headline">标签</div><div class="length_num">3</div></a></div></div><div class="mobile_data_item is-center">     <div class="mobile_data_link"><a href="/categories/"><div class="headline">分类</div><div class="length_num">37</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder-open"></i><span> 文章目录</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fa fa-link"></i><span> 链接</span></a></div><div class="menus_item"><a class="site-page" href="/artitalk/"><i class="fa-fw fa fa-comments-o"></i><span> 碎碎念</span></a></div></div></div></div><div id="body-wrap"><div id="web_bg" data-type="photo"></div><div class="not-index-bg" id="nav" style="background-image: url(https://i.loli.net/2020/06/08/IF48mW63PiT7Mj2.jpg)"><div id="page-header"><span class="pull_left" id="blog_name"><a class="blog_title" id="site-name" href="/">红星★冬季轨道</a></span><span class="pull_right menus"><div id="search_button"><a class="site-page social-icon search"><i class="fa fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder-open"></i><span> 文章目录</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fa fa-link"></i><span> 链接</span></a></div><div class="menus_item"><a class="site-page" href="/artitalk/"><i class="fa-fw fa fa-comments-o"></i><span> 碎碎念</span></a></div></div><span class="toggle-menu close"><a class="site-page"><i class="fa fa-bars fa-fw" aria-hidden="true"></i></a></span></span></div><div id="page_site-info"><h1 id="site_title">关于</h1></div></div><main class="layout_page" id="content-inner"><div id="page"><div id="article-container"><p>HI，这里是Vikaka。<i class="far fa-grin-hearts"></i><br>这是我的文库，用来存放各种脑洞XD<br>欢迎阅读，欢迎repo，啾咪~</p>
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="theme-color" content="#0078E7"><meta name="author" content="Vikaka"><meta name="copyright" content="Vikaka"><meta name="generator" content="Hexo 4.2.1"><meta name="theme" content="hexo-theme-yun"><title>关于 | 红星★冬季轨道</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@900&amp;display=swap" media="none" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/star-markdown-css@0.1.19/dist/yun/yun-markdown.min.css"><script src="//at.alicdn.com/t/font_1140697_stqaphw3j4.js" async></script><script src="https://cdn.jsdelivr.net/npm/scrollreveal/dist/scrollreveal.min.js" defer></script><script>document.addEventListener("DOMContentLoaded", () => {
+  [".post-card",".post-content img"].forEach((target)=> {
+    ScrollReveal().reveal(target);
+  })
+});
+</script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css"><script defer src="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/katex@latest/dist/contrib/copy-tex.min.css"><script defer src="https://cdn.jsdelivr.net/npm/katex@latest/dist/contrib/copy-tex.min.js"></script><script defer src="https://cdn.jsdelivr.net/npm/katex@latest/dist/contrib/auto-render.min.js"></script><script>document.addEventListener("DOMContentLoaded", function() {
+  renderMathInElement(document.body, {
+    delimiters: [
+      {left: "$$", right: "$$", display: true},
+      {left: "$", right: "$", display: false},
+      {left: "\\(", right: "\\)", display: false},
+      {left: "\\[", right: "\\]", display: true}
+    ]
+  });
+});</script><link rel="shortcut icon" type="image/svg+xml" href="/yun.svg"><link rel="mask-icon" href="/yun.svg" color="#0078E7"><link rel="alternate icon" href="/yun.ico"><link rel="preload" href="/css/hexo-theme-yun.css" as="style"><link rel="preload" href="/js/utils.js" as="script"><link rel="preload" href="/js/hexo-theme-yun.js" as="script"><link rel="prefetch" href="/js/sidebar.js" as="script"><link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin><link rel="stylesheet" href="/css/hexo-theme-yun.css"><link rel="alternate" href="/atom.xml" title="红星★冬季轨道"><script id="yun-config">
+    const Yun = window.Yun || {};
+    window.CONFIG = {"root":"/","title":"红星★冬季轨道","version":"0.9.6","anonymous_image":"https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/avatar/none.jpg","fireworks":{"colors":["102, 167, 221","62, 131, 225","33, 78, 194"]}};
+  </script><meta name="description" content="HI，这里是Vikaka。这是我的文库，用来存放各种脑洞XD欢迎阅读，欢迎repo，啾咪~  以下是一些小tips：  点击导航菜单可直达文章目录。  右下角按钮可开启阅读模式、字体调整、简繁转换以及夜间模式功能（没啥用但是很酷）。  头像和小剪刀分隔线可调戏（？  部分文章支持章节跳转。  部分文章已加密，密码为大家都喜爱的某个CP名，小写。  输入密码无反应时，首先检查密码是否正确，再检查页面">
+<meta property="og:type" content="website">
+<meta property="og:title" content="关于">
+<meta property="og:url" content="http://vikakastucky.com/about/index.html">
+<meta property="og:site_name" content="红星★冬季轨道">
+<meta property="og:description" content="HI，这里是Vikaka。这是我的文库，用来存放各种脑洞XD欢迎阅读，欢迎repo，啾咪~  以下是一些小tips：  点击导航菜单可直达文章目录。  右下角按钮可开启阅读模式、字体调整、简繁转换以及夜间模式功能（没啥用但是很酷）。  头像和小剪刀分隔线可调戏（？  部分文章支持章节跳转。  部分文章已加密，密码为大家都喜爱的某个CP名，小写。  输入密码无反应时，首先检查密码是否正确，再检查页面">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2020-05-28T09:15:58.000Z">
+<meta property="article:modified_time" content="2020-08-11T03:01:03.713Z">
+<meta property="article:author" content="Vikaka">
+<meta name="twitter:card" content="summary"><script src="/js/ui/mode.js"></script><link rel="alternate" href="/atom.xml" title="红星★冬季轨道" type="application/atom+xml">
+</head><body><script defer src="https://cdn.jsdelivr.net/npm/animejs@latest/anime.min.js"></script><script defer src="/js/ui/fireworks.js"></script><canvas class="fireworks"></canvas><div class="container"><a class="sidebar-toggle hty-icon-button" id="menu-btn"><div class="hamburger hamburger--spin" type="button"><span class="hamburger-box"><span class="hamburger-inner"></span></span></div></a><div class="sidebar-toggle sidebar-overlay"></div><aside class="sidebar"><script defer src="/js/sidebar.js"></script><div class="sidebar-panel sidebar-panel-active" id="site-overview-wrap"><div class="site-info"><a class="site-author-avatar" href="/about/" title="Vikaka"><img width="96" loading="lazy" src="https://i.loli.net/2020/05/28/ctqGiDO6hmk8EgL.jpg" alt="Vikaka"></a><div class="site-author-name"><a href="/about/">Vikaka</a></div><a class="site-name" href="/about/site.html">红星★冬季轨道</a><sub class="site-subtitle">VIKAKA的文库</sub><div class="site-desciption"></div></div><nav class="site-state"><a class="site-state-item hty-icon-button icon-home" href="/" title="首页"><span class="site-state-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-home-4-line"></use></svg></span></a><div class="site-state-item"><a href="/archives/" title="归档"><span class="site-state-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-archive-line"></use></svg></span></a></div><div class="site-state-item"><a href="/categories/" title="目录"><span class="site-state-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-folder-2-line"></use></svg></span></a></div><div class="site-state-item"><a href="/tags/" title="标签"><span class="site-state-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-price-tag-3-line"></use></svg></span></a></div><a class="site-state-item hty-icon-button" href="/link/" title="链接"><span class="site-state-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-genderless-line"></use></svg></span></a></nav><hr style="margin-bottom:0.5rem"><div class="links-of-author"><a class="links-of-author-item hty-icon-button" rel="noopener" href="/atom.xml" title="RSS" target="_blank" style="color:orange"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-rss-line"></use></svg></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://i.loli.net/2020/05/28/XuAsO7SkmiLbz5Z.jpg" title="QQ 群" target="_blank" style="color:#12B7F5"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-qq-line"></use></svg></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://weibo.com/devilginny" title="微博" target="_blank" style="color:#E6162D"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-weibo-line"></use></svg></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="mailto:devilginny@qq.com" title="E-Mail" target="_blank" style="color:#8E71C1"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-mail-line"></use></svg></a></div><br><a class="links-item hty-icon-button" id="toggle-mode-btn" href="javascript:;" title="Mode" style="color: #f1cb64"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-contrast-2-line"></use></svg></a></div></aside><main class="sidebar-translate" id="content"><div id="page"><header class="post-header"><h1 class="post-title">关于</h1></header><article id="page"><section class="post-body" itemprop="articleBody"><div class="post-content markdown-body"><p>HI，这里是Vikaka。<br>这是我的文库，用来存放各种脑洞XD<br>欢迎阅读，欢迎repo，啾咪~</p>
 <hr>
 <p>以下是一些小tips：</p>
 <ul>
-<li>点击导航菜单可直达文章目录</li>
-<li>右下角按钮可开启阅读模式、字体调整、简繁转换以及夜间模式功能（没啥用但是很酷）</li>
-<li>头像和小剪刀分隔线可调戏（？</li>
-<li>部分文章支持章节跳转</li>
-<li>部分文章已加密，密码为大家都喜爱的某个CP名，小写</li>
-<li>访问时浏览器提示“不安全”是因为我没有买SSL证书（贵，还穷），所以请不要在这里留下密码、身份证之类的个人信息（也没人会留的吧233）</li>
-<li>任何疑问欢迎到Q群敲我~</li>
+<li><p>点击导航菜单可直达文章目录。</p>
+</li>
+<li><p>右下角按钮可开启阅读模式、字体调整、简繁转换以及夜间模式功能（没啥用但是很酷）。</p>
+</li>
+<li><p>头像和小剪刀分隔线可调戏（？</p>
+</li>
+<li><p>部分文章支持章节跳转。</p>
+</li>
+<li><p>部分文章已加密，密码为大家都喜爱的某个CP名，小写。</p>
+</li>
+<li><p>输入密码无反应时，首先检查密码是否正确，再检查页面是否完全加载完成（也就是进度条完全走完）。</p>
+</li>
+<li><p>由于海外服务器自带延迟，我本人也不是专业程序员，所以不保证任何时间任何地点任何浏览器都能无痛显示页面。如遇严重卡顿，请尝试：1、换浏览器；2、换网（比如wifi换流量或流量换wifi）。</p>
+</li>
+<li><p>任何疑问欢迎到Q群敲我~</p>
+</li>
+<li><p>建站不易，欢迎打赏，感谢TAT</p>
+</li>
 </ul>
 <hr>
-<p>以下是一些碎碎念：</p>
 <ul>
-<li><code>6.6</code>把评论区语言改成中文了~</li>
-<li>有时图床卡顿会导致页面加载过慢，我关闭了加载动画，似乎稍有缓解？</li>
-<li>感谢飞机太教我用wordpress插件，不然我能搬到明年OTZ</li>
-<li>正在给每篇文章增加置顶图……</li>
-<li>建站不易，欢迎打赏，感谢TAT</li>
+<li>收到了很多小伙伴的打赏！感恩！谢谢你们忍着这糟心网速看文还给打赏谢谢谢谢谢谢</li>
+<li>我就不一一列出id了毕竟后台也不显示id只能看到一堆星号哈哈哈哈🤣再次感谢！！</li>
 </ul>
-</div><hr><div id="post-comment"><div class="comment_headling"><i class="fa fa-comments fa-fw" aria-hidden="true"></i><span> 评论</span></div><div class="vcomment" id="vcomment"></div><script src="https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js"></script><script>var requestSetting = function (from,set) {
-  var from = from
-  var setting = set.split(',').filter(function(item){
-  return from.indexOf(item) > -1
-  });
-  setting = setting.length == 0 ? from :setting;
-  return setting
+</div></section></article></div><div id="comment"><div class="comment-tooltip text-center"><span>输入有效邮箱，评论被回复时会收到邮件提醒哟。</span><br><span>目前使用的是Gravatar作为评论列表头像，如需修改，请自行登录或注册Gravatar，评论的时候留下在Gravatar注册时所使用的邮箱即可。</span><br></div><div id="valine-container"></div><script src="https://cdn.jsdelivr.net/npm/valine@latest/dist/Valine.min.js"></script><script>function initValine() {
+  const valineConfig = {"enable":"ture","appId":"IswPxBAPc6CmumQhUn2GB5Yv-MdYXbMMI","appKey":"2OhoVIh8UrtYVBlrhyIFbpFP","placeholder":"在这里给我留言吧~","avatar":null,"meta":["nick","mail"],"pageSize":10,"lang":"zh-cn","visitor":false,"highlight":true,"recordIP":false,"el":"#valine-container"}
+  valineConfig.path = window.location.pathname
+  new Valine(valineConfig)
 }
-
-var guestInfo = requestSetting(['nick','mail','link'],'nick,mail')
-var requiredFields = requestSetting(['nick','mail','link'],'nick,mail')
-
-window.valine = new Valine({
-  el:'#vcomment',
-  appId: 'IswPxBAPc6CmumQhUn2GB5Yv-MdYXbMMI',
-  appKey: '2OhoVIh8UrtYVBlrhyIFbpFP',
-  notify: false,
-  verify: false,
-  placeholder: '在这里给我留言吧~（填入有效邮箱，评论被回复时会收到邮件提醒哟）',
-  avatar: 'monsterid',
-  meta: guestInfo,
-  pageSize: '10',
-  lang: 'zh-CN',
-  recordIP: false,
-  serverURLs: '',
-  emojiCDN: '',
-  emojiMaps: "",
-  enableQQ: false,
-  requiredFields: requiredFields
-});</script></div></div><div class="aside_content" id="aside_content"><div class="card-widget card-info"><div class="card-content"><div class="card-info-avatar is-center"><img class="avatar-img" src="https://i.loli.net/2020/05/28/ctqGiDO6hmk8EgL.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/><div class="author-info__name">Vikaka</div><div class="author-info__description"></div></div><div class="card-info-data"><div class="card-info-data-item is-center"><a href="/archives"><div class="headline">文章</div><div class="length_num">37</div></a></div><div class="card-info-data-item is-center">      <a href="/tags"><div class="headline">标签</div><div class="length_num">3</div></a></div><div class="card-info-data-item is-center">     <a href="/categories"><div class="headline">分类</div><div class="length_num">37</div></a></div></div><div class="card-info-bookmark is-center"><a class="bookmark button--primary button--animated" id="bookmark-it" href="javascript:;" title="加入书签" target="_self"><i class="fa fa-bookmark" aria-hidden="true"></i><span>加入书签</span></a></div><div class="card-info-social-icons is-center"><a class="social-icon" href="https://weibo.com/devilginny" target="_blank" title="Weibo"><i class="fa fa-weibo" aria-hidden="true"></i></a><a class="social-icon" href="mailto:devilginny@qq.com" target="_blank" title="Email"><i class="fa fa-envelope" aria-hidden="true"></i></a><a class="social-icon" href="/atom.xml" target="_blank" title="RSS"><i class="fa fa-rss" aria-hidden="true"></i></a></div></div></div><div class="card-widget card-recent-post"><div class="card-content"><div class="item-headline"><i class="fa fa-history" aria-hidden="true"></i><span>最新文章</span></div><div class="aside-recent-item"><div class="aside-recent-post"><a href="/2333/03/02/%E7%BD%AE%E9%A1%B6/"><div class="aside-post-title no-aside-cover"><div class="aside-post_title" href="/2333/03/02/%E7%BD%AE%E9%A1%B6/" title="置顶公告">置顶公告</div><time class="aside-post_meta post-meta__date" title="发表于 2333-03-02 09:52:23">2333-03-02</time></div></a></div><div class="aside-recent-post"><a href="/2020/07/29/%E5%BC%95%E5%8A%9B/"><div class="aside-post-cover"><img class="aside-post-bg" src="https://i.loli.net/2020/07/14/hQwaPJEsTmcHoKR.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" title="引力（连载至第15章）" alt="引力（连载至第15章）"/></div><div class="aside-post-title"><div class="aside-post_title" href="/2020/07/29/%E5%BC%95%E5%8A%9B/" title="引力（连载至第15章）">引力（连载至第15章）</div><time class="aside-post_meta post-meta__date" title="发表于 2020-07-29 15:58:00">2020-07-29</time></div></a></div><div class="aside-recent-post"><a href="/2020/05/16/thats-the-way-it-is/"><div class="aside-post-cover"><img class="aside-post-bg" src="https://i.loli.net/2020/05/28/yE2f1xsGCJ9gnbv.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" title="That's the way it is" alt="That's the way it is"/></div><div class="aside-post-title"><div class="aside-post_title" href="/2020/05/16/thats-the-way-it-is/" title="That's the way it is">That's the way it is</div><time class="aside-post_meta post-meta__date" title="发表于 2020-05-16 11:02:26">2020-05-16</time></div></a></div><div class="aside-recent-post"><a href="/2020/05/13/%E4%BB%BF%E7%94%9F%E4%BA%BA%E4%BC%9A%E6%A2%A6%E8%A7%81%E4%BA%94%E8%A7%92%E6%98%9F%E5%90%97%20%E7%95%AA%E5%A4%96%EF%BC%9A%E4%B8%81%E4%B8%81%E5%8D%B1%E6%9C%BA/"><div class="aside-post-cover"><img class="aside-post-bg" src="https://i.loli.net/2020/05/28/aqIWXbucnrHPYfT.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" title="仿生人会梦见五角星吗 番外：丁丁危机" alt="仿生人会梦见五角星吗 番外：丁丁危机"/></div><div class="aside-post-title"><div class="aside-post_title" href="/2020/05/13/%E4%BB%BF%E7%94%9F%E4%BA%BA%E4%BC%9A%E6%A2%A6%E8%A7%81%E4%BA%94%E8%A7%92%E6%98%9F%E5%90%97%20%E7%95%AA%E5%A4%96%EF%BC%9A%E4%B8%81%E4%B8%81%E5%8D%B1%E6%9C%BA/" title="仿生人会梦见五角星吗 番外：丁丁危机">仿生人会梦见五角星吗 番外：丁丁危机</div><time class="aside-post_meta post-meta__date" title="发表于 2020-05-13 06:05:44">2020-05-13</time></div></a></div><div class="aside-recent-post"><a href="/2020/03/10/%E4%BB%BF%E7%94%9F%E4%BA%BA%E4%BC%9A%E6%A2%A6%E8%A7%81%E4%BA%94%E8%A7%92%E6%98%9F%E5%90%97%20%E7%95%AA%E5%A4%96%EF%BC%9A%E5%81%87%E6%9C%9F/"><div class="aside-post-cover"><img class="aside-post-bg" src="https://i.loli.net/2020/05/28/Su7zYgLKtHkWADe.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" title="仿生人会梦见五角星吗 番外：假期" alt="仿生人会梦见五角星吗 番外：假期"/></div><div class="aside-post-title"><div class="aside-post_title" href="/2020/03/10/%E4%BB%BF%E7%94%9F%E4%BA%BA%E4%BC%9A%E6%A2%A6%E8%A7%81%E4%BA%94%E8%A7%92%E6%98%9F%E5%90%97%20%E7%95%AA%E5%A4%96%EF%BC%9A%E5%81%87%E6%9C%9F/" title="仿生人会梦见五角星吗 番外：假期">仿生人会梦见五角星吗 番外：假期</div><time class="aside-post_meta post-meta__date" title="发表于 2020-03-10 04:59:24">2020-03-10</time></div></a></div></div></div></div><div class="card-widget card-categories"><div class="card-content"><div class="item-headline"><i class="fa fa-folder-open" aria-hidden="true"></i><span>分类</span></div><ul class="card-category-list">
-            <li class="card-category-list-item"><a class="card-category-list-link" href="/categories/stucky/"><span class="card-category-list-name">stucky</span><span class="card-category-list-count">3</span></a></li><ul class="card-category-list child"><li class="card-category-list-item"><a class="card-category-list-link" href="/categories/stucky/Take-It-Easy/"><span class="card-category-list-name">Take It Easy</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item"><a class="card-category-list-link" href="/categories/stucky/Talk-Dirty/"><span class="card-category-list-name">Talk Dirty</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item"><a class="card-category-list-link" href="/categories/stucky/%E9%80%9F%E6%88%98%E9%80%9F%E5%86%B3/"><span class="card-category-list-name">速战速决</span><span class="card-category-list-count">1</span></a></li></ul><li class="card-category-list-item"><a class="card-category-list-link" href="/categories/%E5%86%AC%E7%9B%BE/"><span class="card-category-list-name">冬盾</span><span class="card-category-list-count">5</span></a></li><ul class="card-category-list child"><li class="card-category-list-item"><a class="card-category-list-link" href="/categories/%E5%86%AC%E7%9B%BE/Stand-By-Me/"><span class="card-category-list-name">Stand By Me</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item"><a class="card-category-list-link" href="/categories/%E5%86%AC%E7%9B%BE/Tropical-Rain/"><span class="card-category-list-name">Tropical Rain</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item"><a class="card-category-list-link" href="/categories/%E5%86%AC%E7%9B%BE/%E4%B8%80%E7%A2%97%E7%9F%AD%E5%B0%8F%E7%9A%84%E8%85%BF%E8%82%89/"><span class="card-category-list-name">一碗短小的腿肉</span><span class="card-category-list-count">1</span></a></li></ul>
-            <li class="card-category-list-item more is-center"><a class="card-category-list-link-more" href="/categories">
-                <span>查看更多</span><i class="fa fa-angle-right" aria-hidden="true"></i></a></li>           
-            </ul></div></div><div class="card-widget card-tags"><div class="card-content"><div class="item-headline"><i class="fa fa-tags" aria-hidden="true"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/stucky/" style="font-size: 16px; color: #999">stucky</a> <a href="/tags/%E5%86%AC%E7%9B%BE/" style="font-size: 16px; color: #999">冬盾</a> <a href="/tags/%E7%9B%BE%E5%86%AC/" style="font-size: 22px; color: #99a9bf">盾冬</a></div></div></div><div class="card-widget card-archives"><div class="card-content"><div class="item-headline"><i class="fa fa-archive" aria-hidden="true"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2333/03/"><span class="card-archive-list-date">三月 2333</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2020/07/"><span class="card-archive-list-date">七月 2020</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2020/05/"><span class="card-archive-list-date">五月 2020</span><span class="card-archive-list-count">2</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2020/03/"><span class="card-archive-list-date">三月 2020</span><span class="card-archive-list-count">33</span></a></li></ul></div></div><div class="card-widget card-webinfo"><div class="card-content"><div class="item-headline"><i class="fa fa-line-chart" aria-hidden="true"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="webinfo-article-name">文章数目 :</div><div class="webinfo-article-count">37</div></div><div class="webinfo-item"><div class="webinfo-runtime-name">已运行时间 :</div><div class="webinfo-runtime-count" id="webinfo-runtime-count" start_date="5/26/2020 00:00:00">     </div></div><div class="webinfo-item">      <div class="webinfo-site-uv-name">本站访客数 :</div><div class="webinfo-site-uv-count" id="busuanzi_value_site_uv"></div></div><div class="webinfo-item"><div class="webinfo-site-name">本站总访问量 :</div><div class="webinfo-site-pv-count" id="busuanzi_value_site_pv"></div></div></div></div></div></div></main><footer id="footer" style="background-image: url(https://i.loli.net/2020/06/08/IF48mW63PiT7Mj2.jpg)" data-type="photo"><div id="footer-wrap"><div class="copyright">&copy;2020 By Vikaka</div><div class="framework-info"><span>驱动 </span><a href="https://hexo.io" target="_blank" rel="noopener"><span>Hexo</span></a><span class="footer-separator">|</span><span>主题 </span><a href="https://github.com/jerryc127/hexo-theme-butterfly" target="_blank" rel="noopener"><span>Butterfly</span></a></div></div></footer></div><section class="rightside" id="rightside"><div id="rightside-config-hide"><a class="translate_chn_to_cht" id="translateLink" href="javascript:translatePage();" title="简繁转换" target="_self">繁</a><i class="darkmode fa fa-moon-o" id="darkmode" title="夜间模式"></i></div><div id="rightside-config-show"><div id="rightside_config" title="设置"><i class="fa fa-cog" aria-hidden="true"></i></div><i class="fa fa-arrow-up" id="go-up" title="回到顶部" aria-hidden="true"></i></div></section><div class="search-dialog" id="local-search"><div class="search-dialog__title" id="local-search-title">本地搜索</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div></div><hr/><div id="local-search-results"><div id="local-hits"></div><div id="local-stats"><div class="local-search-stats__hr" id="hr"><span>由</span> <a href="https://github.com/wzpan/hexo-generator-search" target="_blank" rel="noopener" style="color:#49B1F5;">hexo-generator-search</a>
- <span>提供支持</span></div></div></div><span class="search-close-button"><i class="fa fa-times"></i></span></div><div class="search-mask"></div><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page@3/instantpage.min.js" type="module"></script><script src="/js/search/local-search.js"></script></body></html>
+setTimeout(initValine, 1000)</script></div></main><footer class="sidebar-translate" id="footer"><div class="copyright"><span>&copy; 2020 </span><span class="with-love" id="animate"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-cloud-line"></use></svg></span><span class="author"> Vikaka</span></div><div class="powered"><span>由 <a href="https://hexo.io" target="_blank" rel="noopener">Hexo</a> 驱动 v4.2.1</span><span class="footer-separator">|</span><span>主题 - <a rel="noopener" href="https://github.com/YunYouJun/hexo-theme-yun" target="_blank"><span>Yun</span></a> v0.9.6</span></div></footer><a class="hty-icon-button" id="goUp" aria-label="back-to-top" href="#"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-arrow-up-s-line"></use></svg><svg class="progress-circle-container" viewBox="0 0 100 100"><circle class="progress-circle" id="progressCircle" cx="50" cy="50" r="48" fill="none" stroke="#0078E7" stroke-width="2" stroke-linecap="round"></circle></svg></a></div><script defer src="/js/utils.js"></script><script defer src="/js/hexo-theme-yun.js"></script></body></html>

@@ -14,7 +14,7 @@ img: https://cdn.jsdelivr.net/gh/cungudafa/img/images/food.jpg
     var appID="FzNus6IN2uFz4I2k9kCmfGFl-MdYXbMMI";
     var appKEY="ynff0KLi0jWttk8J8RrtSaIp";
     var per = "10"; //每页显示说说的数量
-
+    var username = "vikaka"; //Leancloud中设置的用户名
     </script>
     <div id="artitalk_main"></div>
     <script type="text/javascript" src="https://unpkg.com/artitalk"></script>
